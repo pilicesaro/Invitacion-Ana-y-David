@@ -354,6 +354,29 @@
   }
 
   /* ---------- MUSIC ---------- */
+  /* ---------- PHOTOS / QR ---------- */
+  .photos-section{ text-align:center; }
+  .photos-lead{
+    max-width:440px;
+    margin:0 auto;
+    font-size:0.95rem;
+    line-height:1.7;
+    color:var(--ink);
+    opacity:0.85;
+  }
+  .qr-box{
+    display:inline-block;
+    margin:2.4rem auto 0.6rem;
+    padding:1.2rem;
+    background:var(--cream);
+    border:1px solid var(--line);
+  }
+  .qr-box img{
+    display:block;
+    width:190px;
+    height:190px;
+  }
+
   .music-section{ text-align:center; }
   .music-lead{
     font-size:0.9rem;
@@ -721,6 +744,23 @@
   </form>
 
   <p class="rsvp-confirm" id="rsvp-confirm">Gracias — tu confirmación fue enviada ✦</p>
+</section>
+
+<div class="divider"></div>
+
+<!-- ============ FOTOS ============ -->
+<section class="photos-section reveal">
+  <h2 class="section-title">Compartí tus fotos</h2>
+  <p class="section-sub">Álbum para todos</p>
+  <p class="photos-lead">Durante la fiesta sacate todas las fotos que quieras y subilas a nuestro álbum compartido. Escaneá el código o tocá el botón, ¡y quedan todos los recuerdos juntos!</p>
+
+  <div class="qr-box">
+    <img src="qr-fotos.png" alt="Código QR del álbum de fotos" width="190" height="190">
+  </div>
+
+  <div>
+    <a class="btn" href="https://photos.app.goo.gl/pSXgKekouWYVmJHt9" target="_blank" rel="noopener">Subir mis fotos</a>
+  </div>
 </section>
 
 
