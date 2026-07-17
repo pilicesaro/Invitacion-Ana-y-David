@@ -516,6 +516,82 @@
     color:var(--blush);
   }
 
+  @media (max-width: 600px) {
+    section{
+      padding:4.5rem 1rem;
+    }
+    .hero{
+      padding:1.5rem 1rem;
+    }
+    .hero-content{
+      gap:1.2rem;
+      padding:1rem 1rem;
+      max-width:100%;
+    }
+    .hero-names{
+      font-size:clamp(2.4rem, 11vw, 3.4rem);
+      word-spacing:0.4rem;
+    }
+    .hero-country{
+      margin-top:1.1rem;
+      font-size:clamp(0.85rem, 3.5vw, 1rem);
+      letter-spacing:0.25em;
+    }
+    .hero-date{
+      margin-top:1rem;
+      font-size:0.82rem;
+      letter-spacing:0.2em;
+    }
+    .scroll-cue{
+      margin:1.4rem auto 0;
+    }
+    .quote-section{
+      padding:0.6rem 1rem;
+      margin-top:-2rem;
+    }
+    .quote{
+      font-size:clamp(1.05rem, 4vw, 1.35rem);
+      max-width:100%;
+      margin-top:2rem;
+    }
+    .quote-attr{
+      font-size:0.65rem;
+    }
+    .cards{
+      gap:0.9rem;
+    }
+    .card{
+      padding:1.4rem 1rem;
+    }
+    .music-lead{
+      max-width:100%;
+      padding:0 0.2rem;
+    }
+    .song-form{
+      gap:0.5rem;
+    }
+    .song-form input{
+      flex:1 1 100%;
+    }
+    .rsvp-form{
+      gap:1rem;
+    }
+    .companion-row,
+    .attend-toggle{
+      flex-direction:column;
+      align-items:stretch;
+    }
+    .companion-row{
+      gap:0.5rem;
+    }
+    .attend-toggle button{
+      width:100%;
+    }
+    .footer{
+      padding:3rem 1rem 2rem;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce){
     *{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; }
   }
